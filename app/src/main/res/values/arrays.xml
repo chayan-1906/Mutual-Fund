@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image">
+	<item>@drawable/argon</item>
+	<item>@drawable/alive</item>
+	<item>@drawable/day_tripper</item>
+	<item>@drawable/electric_violet</item>
+	<item>@drawable/meridian</item>
+	<item>@drawable/moon_purple</item>
+	<item>@drawable/pure_lust</item>
+	<item>@drawable/quepal</item>
+	<item>@drawable/rainbow_blue</item>
+	<item>@drawable/sublime_vivid</item>
+    </array>
+</resources>

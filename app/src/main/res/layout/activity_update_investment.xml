@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/brady_brady_fun_fun"
+    android:orientation="vertical">
+
+    <LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingVertical="10dp"
+	android:layout_marginBottom="5dp">
+
+	<ImageButton
+	    android:id="@+id/btnDiscard"
+	    android:layout_width="60dp"
+	    android:layout_height="60dp"
+	    android:layout_weight="1"
+	    android:layout_gravity="left"
+	    android:src="@drawable/btn_discard"
+	    android:background="@null"/>
+
+	<TextView
+	    android:id="@+id/txtViewTitle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="2"
+	    android:text="@string/txt_details_mutual_fund"
+	    android:gravity="center"
+	    android:paddingVertical="16dp"
+	    android:textStyle="bold|italic"
+	    android:textSize="20sp"
+	    android:textColor="#000"/>
+
+	<ImageButton
+	    android:id="@+id/btnSave"
+	    android:layout_width="60dp"
+	    android:layout_height="60dp"
+	    android:layout_weight="1"
+	    android:layout_gravity="right"
+	    android:src="@drawable/btn_save"
+	    android:background="@null"/>
+
+    </LinearLayout>
+
+    <ScrollView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:verticalScrollbarPosition="right">
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextInstallmentDate"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/hint_enter_date"
+		    android:inputType="number"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextFolioNo"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/hint_enter_folio_no"
+		    android:inputType="number"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextName"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/hint_name"
+		    android:inputType="textPersonName"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextMutualFundName"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/hint_name_of_mutual_fund"
+		    android:inputType="text"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextSchemeName"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/hint_name_of_scheme"
+		    android:inputType="text"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextAmount"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/hint_amount"
+		    android:inputType="numberDecimal"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+		    <com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/editTextLastInstallmentDate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="4"
+			android:clickable="false"
+			android:cursorVisible="false"
+			android:focusable="false"
+			android:focusableInTouchMode="false"
+			android:hint="@string/hint_enter_last_installment_date"
+			android:padding="10dp"
+			android:textColor="#000" />
+
+		    <ImageButton
+			android:id="@+id/imageButtonLastInstallmentDate"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_weight="1"
+			android:background="#00000000"
+			android:paddingEnd="5dp"
+			android:scaleType="fitCenter"
+			android:src="@drawable/calendar_icon" />
+
+		</LinearLayout>
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextBlank1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/edittext_border">
+
+		<com.google.android.material.textfield.TextInputEditText
+		    android:id="@+id/editTextBlank2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"
+		    android:singleLine="true"
+		    android:padding="10dp"
+		    android:textColor="#000" />
+
+	    </com.google.android.material.textfield.TextInputLayout>
+
+	    <!--	    <Button-->
+	    <!--		android:id="@+id/btnSave"-->
+	    <!--		android:layout_width="wrap_content"-->
+	    <!--		android:layout_height="wrap_content"-->
+	    <!--		android:layout_gravity="center"-->
+	    <!--		android:paddingLeft="20dp"-->
+	    <!--		android:paddingRight="20dp"-->
+	    <!--		android:background="#51c2d5"-->
+	    <!--		android:layout_marginTop="10dp"-->
+	    <!--		android:text="@string/btn_save"-->
+	    <!--		android:textSize="20sp"-->
+	    <!--		android:textStyle="bold"-->
+	    <!--		android:textColor="#f8f1f1"-->
+	    <!--		android:shadowColor="#0a043c"-->
+	    <!--		android:shadowDx="5"-->
+	    <!--		android:shadowDy="5"-->
+	    <!--		android:shadowRadius="10" />-->
+
+	</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

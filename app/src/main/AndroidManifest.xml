@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mutualfund">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+	android:allowBackup="true"
+	android:icon="@mipmap/ic_launcher"
+	android:label="@string/app_name"
+	android:roundIcon="@mipmap/ic_launcher_round"
+	android:supportsRtl="true"
+	android:theme="@style/AppTheme">
+	<activity
+	    android:name=".SplashScreenActivity"
+	    android:exported="true"
+	    android:screenOrientation="portrait"
+	    android:theme="@style/AppTheme.NoActionBar">
+	    <intent-filter>
+		<action android:name="android.intent.action.MAIN" />
+
+		<category android:name="android.intent.category.LAUNCHER" />
+	    </intent-filter>
+	</activity>
+	<activity
+	    android:name=".MainActivity"
+	    android:label="@string/app_name"
+	    android:screenOrientation="portrait"
+	    android:theme="@style/AppTheme.NoActionBar" />
+	<activity
+	    android:name=".RegisterActivity"
+	    android:exported="true"
+	    android:parentActivityName=".MainActivity"
+	    android:screenOrientation="portrait" />
+	<activity
+	    android:name=".NoInternetActivity"
+	    android:exported="true"
+	    android:parentActivityName=".MainActivity"
+	    android:screenOrientation="portrait" />
+	<activity
+	    android:name=".MyListActivity"
+	    android:screenOrientation="portrait" />
+	<activity
+	    android:name=".InvestmentInfoActivity"
+	    android:parentActivityName=".MyListActivity"
+	    android:screenOrientation="portrait"
+	    android:theme="@style/AppTheme.NoActionBar" />
+	<activity
+	    android:name=".LoginActivity"
+	    android:screenOrientation="portrait" />
+	<activity
+	    android:name=".LoginWithEmailActivity"
+	    android:exported="true"
+	    android:parentActivityName=".LoginActivity"
+	    android:screenOrientation="portrait" />
+	<activity
+	    android:name=".LoginWithPhoneActivity"
+	    android:parentActivityName=".LoginActivity"
+	    android:screenOrientation="portrait" />
+	<activity
+	    android:name=".VerifyPhone"
+	    android:parentActivityName=".MainActivity"
+	    android:screenOrientation="portrait" />
+	<activity
+	    android:name=".SendOTP"
+	    android:screenOrientation="portrait" />
+	<activity android:name=".UpdateInvestmentActivity"
+	    android:parentActivityName=".MyListActivity"
+	    android:screenOrientation="portrait"
+	    android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

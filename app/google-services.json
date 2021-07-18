@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "258206620097",
+    "firebase_url": "https://mutual-fund-1805588-default-rtdb.firebaseio.com",
+    "project_id": "mutual-fund-1805588",
+    "storage_bucket": "mutual-fund-1805588.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258206620097:android:0bc4260b1eea5f6b05b740",
+        "android_client_info": {
+          "package_name": "com.example.mutualfund"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258206620097-vhjr1q9qlbh9rda2b877k7lqcp4l9fat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mutualfund",
+            "certificate_hash": "b999332c121d1b9118e3b4fdafd78073a8f0aaba"
+          }
+        },
+        {
+          "client_id": "258206620097-hplfnjspk40nbdndvov8cp301lmv9cg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl5Ve67anUwYcD_swPFrd4_jIvY3dBqes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258206620097-hplfnjspk40nbdndvov8cp301lmv9cg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258206620097:android:da705011cdff3f1c05b740",
+        "android_client_info": {
+          "package_name": "com.example.mutualfundonline2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258206620097-hplfnjspk40nbdndvov8cp301lmv9cg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl5Ve67anUwYcD_swPFrd4_jIvY3dBqes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258206620097-hplfnjspk40nbdndvov8cp301lmv9cg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

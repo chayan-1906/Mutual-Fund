@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <RelativeLayout
+	android:id="@+id/parent"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#f8fab8"
+	android:padding="15dp">
+
+	<TextView
+	    android:id="@+id/txtInstallmentDate"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#822659"/>
+
+	<TextView
+	    android:id="@+id/txtFolioNo"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtInstallmentDate"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#845ec2"/>
+
+	<TextView
+	    android:id="@+id/txtName"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtFolioNo"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#0a043c"/>
+
+	<TextView
+	    android:id="@+id/txtMutualFundName"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtName"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#03506f"/>
+
+	<TextView
+	    android:id="@+id/txtSchemeName"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtMutualFundName"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#09015f"/>
+
+	<TextView
+	    android:id="@+id/txtAmount"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtSchemeName"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#184d47"/>
+
+	<TextView
+	    android:id="@+id/txtLastInstallmentDate"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtAmount"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#184d47"/>
+
+	<TextView
+	    android:id="@+id/txtBlank1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtLastInstallmentDate"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp" />
+
+	<TextView
+	    android:id="@+id/txtBlank2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtBlank1"
+	    android:padding="5dp"
+	    android:textStyle="italic"
+	    android:textSize="16sp"
+	    android:textColor="#008891"/>
+
+	<LinearLayout
+	    android:id="@+id/linearLayoutDate"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtBlank2"
+	    android:orientation="horizontal">
+
+	    <TextView
+		android:id="@+id/txtCreateDate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:textStyle="italic"
+		android:textSize="10sp"
+		android:textColor="#a9294f"
+		app:ignore="SmallSp" />
+
+	    <TextView
+		android:id="@+id/txtUpdateDate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:textStyle="italic"
+		android:textSize="10sp"
+		android:textColor="#a9294f"
+		app:ignore="SmallSp" />
+
+	</LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

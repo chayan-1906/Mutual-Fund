@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mutual_fund_6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SendOTP">
+
+    <LinearLayout
+	android:layout_width="280dp"
+	android:layout_height="400dp"
+	android:background="@drawable/background_shape"
+	android:orientation="vertical"
+	android:padding="15dp">
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dp"
+	    android:text="@string/enter_otp"
+	    android:textSize="20sp"
+	    android:textStyle="italic"
+	    android:textColor="#250285"
+	    android:fontFamily="sans-serif-black" />
+
+	<com.google.android.material.textfield.TextInputLayout
+	    android:id="@+id/textInputLayoutOTP"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp">
+
+	    <com.google.android.material.textfield.TextInputEditText
+		android:id="@+id/textInputEditTextOTP"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/otp"
+		android:inputType="number" />
+
+	</com.google.android.material.textfield.TextInputLayout>
+
+	<Button
+	    android:id="@+id/btnVerifyOTP"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="40dp"
+	    android:layout_gravity="center"
+	    android:background="@drawable/button_shape"
+	    android:backgroundTint="#29bb89"
+	    android:padding="10dp"
+	    android:text="@string/verify"
+	    android:textSize="18sp"
+	    android:textStyle="bold"
+	    android:textColor="#FFFFFF"/>
+
+	<Button
+	    android:id="@+id/btnResendOTP"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:layout_gravity="center"
+	    android:background="@drawable/btnred"
+	    android:padding="10dp"
+	    android:text="@string/resend_otp"
+	    android:textSize="18sp"
+	    android:textStyle="bold"
+	    android:textColor="#FFFFFF" />
+
+	<TextView
+	    android:id="@+id/textView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text=""
+	    android:textSize="16sp"
+	    android:textAlignment="center"
+	    android:textColor="#7E000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

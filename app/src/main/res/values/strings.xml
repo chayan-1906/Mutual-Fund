@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Mutual Fund</string>
+
+    <string name="txtAddItem">Add Investment</string>
+    <string name="savingSuccessful">Saved Successfully</string>
+    <string name="txt_details_mutual_fund">Mutual Fund Details</string>
+    <string name="hint_enter_date">Enter Installment Date…</string>
+    <string name="hint_enter_folio_no">Enter Folio No…</string>
+    <string name="hint_name">Enter Name…</string>
+    <string name="hint_name_of_mutual_fund">Enter Mutual Fund Name…</string>
+    <string name="hint_name_of_scheme">Enter Name of the Scheme…</string>
+    <string name="hint_amount">Enter Investment Amount…</string>
+    <string name="btn_save">Save</string>
+    <string name="firstname">Enter your Firstname…</string>
+    <string name="lastname">Enter your Lastname…</string>
+    <string name="password">Enter your password…</string>
+    <string name="confirmpassword">Enter Confirm Password…</string>
+    <string name="email">Enter your Email…</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="need_new_account">Need a new account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="action_addItem">Add Investment Details</string>
+    <string name="logout">Logout</string>
+    <string name="saving_investment">Saving…</string>
+    <string name="title_activity_list">ListActivity</string>
+
+    <string name="hint_enter_last_installment_date">Enter Last Installment Date…</string>
+    <string name="sure_text_delete">Do you want to delete?</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">Cancel</string>
+    <string name="updateTitle">Update</string>
+    <string name="Login">Login</string>
+    <string name="send_otp">Send OTP</string>
+
+    <!--  activity_login.xml  -->
+    <string name="mutual_fund_sahi_hai">Mutual Fund Sahi Hai 👍🏻</string>
+    <string name="sign_in_with_email">Sign In with Email</string>
+    <string name="sign_in_with_phone">Sign In with Phone</string>
+    <string name="or">OR</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!--  activity_login_email.xml  -->
+    <string name="email_id">Email id</string>
+    <string name="don_t_have_an_account_create">Don\'t Have An Account? Create</string>
+    <string name="sign_in_with">Sign In With</string>
+    <string name="phone">Phone</string>
+
+    <!--  activity_login_with_phone.xml  -->
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="email_sign_in">Email</string>
+
+    <!--  activity_no_internet.xml  -->
+    <string name="try_again">Try Again</string>
+
+    <!--  activity_register.xml  -->
+    <string name="mobile_number">Mobile Number</string>
+    <string name="phone_sign_in">Phone</string>
+
+    <!--  activity_send_otp  -->
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp">OTP</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">Resend OTP</string>
+
+    <!--  login_loading.xml  -->
+    <string name="signing_in">Signing In…</string>
+
+    <!--  register_loading.xml  -->
+    <string name="creating_new_account">Creating new Account…</string>
+
+</resources>
